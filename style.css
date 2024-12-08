@@ -70,16 +70,18 @@ form input {
 
 .select-container img {
   max-width: 2.5rem;
-  margin-right: 0.5rem;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .select-container {
   display: flex;
   align-items: center;
   width: auto;
-  border-radius: 0.8rem;
+  height: 5rem;
+  border-radius: 1rem;
   border: 1px solid #ddd;
-  padding: 0.6rem;
+  padding: 0.5rem;
   background: #f7f8fc;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -91,6 +93,7 @@ form input {
   outline: none;
   background: none;
   cursor: pointer;
+  margin-top: 1rem;
 }
 
 .msg {
@@ -123,7 +126,7 @@ form button:hover {
 /* Responsive Design */
 @media (max-width: 480px) {
   .container {
-    padding: 1.5rem;
+    padding: 1rem;
   }
 
   h2 {
@@ -161,4 +164,13 @@ form button:hover {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight:bold;
 }
